@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock List</title>
+<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+<link href="flat-ui.min.css" rel="stylesheet">
+
+<link href="default.css" rel="stylesheet" type="text/css">
+
+<!-- <link rel="shortcut icon" href="../../dist/img/favicon.ico"> -->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            <img src="./resources/icon.png" style="height: 50px;
+                margin-top: -15px; margin-left: 30px">
+          </a>
+        </div>
+          <ul class="nav navbar-nav" style="margin-left: 60px">
+            <li><a href="#">股票列表</a></li>
+            <li><a href="#">大盘列表</a></li>
+            <li><a href="#">热门行业</a></li>
+            <!-- <div class="navbar-form navbar-right" style="margin-left: 80px">
+              <button class="btn btn-link">帮助</button>
+              <button class="btn btn-link">刷新</button>
+            </div> -->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">帮助</a></li>
+            <li><a href="#">刷新</a></li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="main">
+      <div class="table-container" style="overflow: auto">
+        <div class="jumbotron" style="position: relative; overflow: auto; width: 850px; height: 620px">
+          <table class="table">
+              <thead style="font-size: 15px">
+                <tr>
+                  <th>股票ID</th>
+                  <th>股票名称</th>
+                  <th>开盘价</th>
+                  <th>最高价</th>
+                  <th>最低价</th>
+                  <th>收盘价</th>
+                  <th>后复权价</th>
+                  <th>成交量</th>
+                  <th>转手率</th>
+                  <th>市盈率</th>
+                  <th>市净率</th>
+                  <th>更新时间</th>
+                </tr>
+              </thead>
+              <!-- </table> -->
+              <tbody style="font-size: 15px">
+                <tr>
+                  <td><a href="#">sz002644</a></td>
+                  <td>XXX</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+               <tr>
+                  <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+                <tr>
+                 <td><a href="#">sh600979</a></td>
+                  <td>YYY</td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+
+      </div> <!-- /<tablecontainer -->
+      <div class="right-panel" style="margin-top: 123px">
+        <div id="stats">
+           <div class="jumbotron" style="height: 250px">
+             <h7 style="margin-top: -40px">xxxx统计指标</h7>
+           </div>
+         </div>
+
+         <div id="filter">
+           <div class="jumbotron" style="height: 250px">
+             <div class="filter-form">
+                <div class="row">
+                  <div class="filter-table">
+                    <form class="form-inline" role="form">
+                      <table>
+                        <tr>
+                          <td class="filter-label" align="right">
+                            <label class="filter-label"> 后复权价 </label>
+                          </td>
+                          <td align="left">
+                            <div class="filter-box">
+                              <input type="text" class="form-control" id="filter-input" placeholder="low">
+                              <!-- <label class="filter-label"> ~ </label> -->
+                              <input type="text" class="form-control" id="filter-input" placeholder="high">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="filter-label" align="right">
+                            <label> 成交量 </label>
+                          </td>
+                          <td align="left">
+                            <div class="filter-box">
+                              <input type="text" class="form-control" id="filter-input" placeholder="low">
+                              <!-- <label class="filter-label"> ~ </label> -->
+                              <input type="text" class="form-control" id="filter-input" placeholder="high">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="filter-label" align="right">
+                            <label class="filter-label"> 换手率 </label>
+                          </td>
+                          <td align="left">
+                            <div class="filter-box">
+                              <input type="text" class="form-control" id="filter-input" placeholder="low">
+                              <!-- <label class="filter-label"> ~ </label> -->
+                              <input type="text" class="form-control" id="filter-input" placeholder="high">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="filter-label" align="right">
+                            <label class="filter-label"> 市盈率 </label>
+                          </td>
+                          <td align="left">
+                            <div class="filter-box">
+                              <input type="text" class="form-control" id="filter-input" placeholder="low">
+                              <!-- <label class="filter-label"> ~ </label> -->
+                              <input type="text" class="form-control" id="filter-input" placeholder="high">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="filter-label" align="right">
+                            <label class="filter-label"> 市净率 </label>
+                          </td>
+                          <td align="left">
+                            <div class="filter-box">
+                              <input type="text" class="form-control" id="filter-input" placeholder="low">
+                              <!-- <label class="filter-label"> ~ </label> -->
+                              <input type="text" class="form-control" id="filter-input" placeholder="high">
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <div>
+                        <button class="btn btn-primary" id="filter-btn" type="button">筛选!</button>
+                      </div>
+                    </form>
+                  </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+             </div><!-- /.filter-input -->
+           </div>
+         </div>
+
+         <div id="search">
+           <div class="jumbotron" style="overflow: hidden; height: 28px; ">
+             <!-- <h7 style="margin-top: -25px">搜索ID</h7> -->
+             <form class="form-horizontal" role="form" style="scroll: no; margin-left: 30px; margin-top: -45px; height: 30px; width: 140px">
+              <div class="form-group" style="height: 20px">
+                <label for="stockID" class="col-2 control-label" style="margin-left: -80px; margin-top: -5px; font-size: 18px"> Search </label>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <div class="input-group" style=" margin-top: 35px">
+                      <input type="text" placeholder="eg.sh600979" class="form-control" style="width: 180px;">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">搜索!</button>
+                      </span>
+                    </div><!-- /input-group -->
+                  </div><!-- /.form-group -->
+                </div><!-- /.col-lg-6 -->
+              </div>
+            </form>
+           </div>
+         </div>
+       </div>
+    </div>  <!-- end of main -->
+
+    <script src="../../dist/js/vendor/jquery.min.js"></script>
+
+    <script src="../../dist/js/flat-ui.min.js"></script>
+
+    <script src="../assets/js/application.js"></script>
+
+</body>
+</html>
