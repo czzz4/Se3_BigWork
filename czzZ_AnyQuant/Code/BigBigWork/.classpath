@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="/Bigwork_Client/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="/Bigwork_Client/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/Bigwork_Client/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/Bigwork_Client/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Bigwork_Client/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/Bigwork_Client/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

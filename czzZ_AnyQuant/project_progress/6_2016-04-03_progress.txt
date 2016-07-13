@@ -1,0 +1,24 @@
+who：张家盛
+when：第6周
+what: UI层代码基本构造完成
+problem：对于一些新功能难以熟练应用
+todo：进一步完善UI层代码
+
+
+who: 郑韵芝
+when: 第6周
+what:  进行ui层代码构造
+problem: 新技术学习应用慢
+todo: 进一步完善ui层代码
+
+who：张静璇
+when：第6周
+what：画图
+problem：y轴还是没有移好（……其实我觉得是移不好了（））
+todo：完成作图
+
+who：崔忠诚
+when：第6周
+what：绘制K线图
+problem：k线图较复杂，进展较慢
+todo：完成K线图，大盘折线图以及均幅指标

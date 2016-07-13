@@ -1,0 +1,24 @@
+who：张家盛
+when：第9周
+what: 
+problem：
+todo：
+
+
+who: 郑韵芝
+when: 第9周
+what:  
+problem: 
+todo: 
+
+who：张静璇
+when：第9周
+what：
+problem：
+todo：
+
+who：崔忠诚
+when：第9周
+what：迭代二剩余的几个bug，明确迭代三需求
+problem：迭代三要求自定义功能，没有明确要求
+todo：确定迭代三所需数据分析模块，选定迭代三项目用pc端还是web

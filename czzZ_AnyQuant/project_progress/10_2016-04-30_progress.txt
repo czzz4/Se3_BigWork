@@ -1,0 +1,23 @@
+who：张家盛
+when：第10周
+what: 讨论并确定迭代三功能和展示方法
+problem：确定是否要使用web，以及图表的更优秀的展现方法
+todo：学习web语言
+
+who: 郑韵芝
+when: 第10周
+what:  
+problem: 
+todo: 
+
+who：张静璇
+when：第10周
+what：
+problem：
+todo：
+
+who：崔忠诚
+when：第10周
+what：确定迭代三功能，选出响应股票指标；
+problem：用web开发迭代三有许多新内容需要学习
+todo：迭代三需求文档，学习web开发

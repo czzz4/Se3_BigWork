@@ -1,0 +1,24 @@
+who：张家盛
+when：第5周
+what: 依然在学习JAVAFX
+problem：JAVAFX好难，学习很慢
+todo：UI层代码分工并实现架构
+
+
+who: 郑韵芝
+when: 第5周
+what: 了解并掌握javafx
+problem: 进度略慢
+todo: 开始UI层总体代码构造
+
+who：张静璇
+when：第5周
+what：初步完成图表
+problem：两根Y轴的图表实现有点困难，热门行业标准难以确定
+todo：进一步完成作图，准备测试文档
+
+who：崔忠诚
+when：第5周
+what：完成代码逻辑重构，开始画图标
+problem：K线图较为复杂，其中某个组件添加不上去
+todo：完成K线图及其他图表

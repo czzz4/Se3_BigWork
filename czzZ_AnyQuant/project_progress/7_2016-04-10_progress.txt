@@ -1,0 +1,24 @@
+who：张家盛
+when：第7周
+what: 
+problem：
+todo：
+
+
+who: 郑韵芝
+when: 第7周
+what:  
+problem: 
+todo: 
+
+who：张静璇
+when：第7周
+what：完成画图
+problem：图真的好难看……而且没什么animation
+todo：完成迭代二测试以及测试文档，fix bug，尽可能补充一些指标
+
+who：崔忠诚
+when：第7周
+what：完成k线图，大盘信息成交量折线图、成交金额折现图
+problem：项目进程较慢，留给项目集成的时间较短；计划的统计指标数目太少
+todo：完成统计指标计算，完成单元测试和集成测试以及相关文档

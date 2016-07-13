@@ -1,0 +1,24 @@
+who：张家盛
+when：第4周
+what: 项目计划文档，JAVAFX视频学习
+problem：JAVAFX学习进度慢
+todo：熟练掌握JAVAFX并利用其重写界面开发
+
+
+who: 郑韵芝
+when: 第4周
+what: 需求文档和设计文档，javafx的初步学习
+problem: javafx学习进度慢
+todo: 熟练掌握javafx，进行迭代二的界面部分代码构造（除图表展示块）
+
+who：张静璇
+when：第4周
+what：完成迭代二功能需求，熟悉JavaFX图表
+problem：需求分析有点麻烦……
+todo：继续完成迭代二bl部分代码，在合适的时候开始写测试文档……
+
+who：崔忠诚
+when：第4周
+what：设计文档，将网上数据再本地备份获取数据方式改为本地存取，熟悉javafx图表
+problem：代码体系结构有点混乱，javafx画图不能熟练掌握
+todo：修改软件架构，完成bl部分代码，规划测试文档

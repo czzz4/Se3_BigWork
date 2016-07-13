@@ -1,0 +1,23 @@
+who：张家盛
+when：第12周
+what: 讨论界面设计，学习echarts
+problem：初次写web和js，不够熟悉
+todo：熟悉前端，完善界面
+
+who: 郑韵芝
+when: 第12周
+what:  
+problem: 
+todo: 
+
+who：张静璇
+when：第12周
+what：讨论界面设计＋开始写界面
+problem：不熟练……
+todo：继续熟悉前端＋修改界面
+
+who：崔忠诚
+when：第12周
+what：基于springmvc的基本学习，尝试性开发
+problem：controller与前端的数据传输问题
+todo：解决controller与前端的数据传输问题，jenkins配置
